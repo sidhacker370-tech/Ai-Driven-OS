@@ -1,0 +1,113 @@
+﻿python.exe : E:\Ai driven OS\
+.venv\lib\site-packages\googl
+e\api_core\_python_version_su
+pport.py:275: FutureWarning: 
+You are using a Python 
+version (3.10.10) which 
+Google will stop supporting 
+in new releases of 
+google.api_core once it 
+reaches its end of life 
+(2026-10-04). Please upgrade 
+to the latest Python 
+version, or at least Python 
+3.11, to continue receiving 
+updates for google.api_core 
+past that date.
+At line:1 char:1
++ & 'e:\Ai driven 
+OS\.venv\Scripts\python.exe' 
+os_agent.py > error2.txt ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (E:\Ai d  
+  riven OS...past that dat   
+ e.:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+  warnings.warn(message, 
+FutureWarning)
+E:\Ai driven OS\Backend\worke
+r\os_agent.py:73: 
+UserWarning: Detected filter 
+using positional arguments. 
+Prefer using the 'filter' 
+keyword argument instead.
+  vfs_query = db.collection_g
+roup('fs').where("type", 
+"==", "file")
+Thread-ConsumeBidirectionalSt
+ream caught unexpected 
+exception Error 9:  The 
+query requires a 
+COLLECTION_GROUP_ASC index 
+for collection fs and field 
+type. You can create it 
+here: https://console.firebas
+e.google.com/v1/r/project/ai-
+driven-os/firestore/indexes?c
+reate_exemption=Cklwcm9qZWN0c
+y9haS1kcml2ZW4tb3MvZGF0YWJhc2
+VzLyhkZWZhdWx0KS9jb2xsZWN0aW9
+uR3JvdXBzL2ZzL2ZpZWxkcy90eXBl
+EAIaCAoEdHlwZRAB  and will 
+exit.
+google.api_core.exceptions.Fa
+iledPrecondition: 400 The 
+query requires a 
+COLLECTION_GROUP_ASC index 
+for collection fs and field 
+type. You can create it 
+here: https://console.firebas
+e.google.com/v1/r/project/ai-
+driven-os/firestore/indexes?c
+reate_exemption=Cklwcm9qZWN0c
+y9haS1kcml2ZW4tb3MvZGF0YWJhc2
+VzLyhkZWZhdWx0KS9jb2xsZWN0aW9
+uR3JvdXBzL2ZzL2ZpZWxkcy90eXBl
+EAIaCAoEdHlwZRAB 
+
+The above exception was the 
+direct cause of the 
+following exception:
+
+Traceback (most recent call 
+last):
+  File "E:\Ai driven OS\.venv
+\lib\site-packages\google\api
+_core\bidi.py", line 647, in 
+_thread_main
+    
+self._on_response(response)
+  File "E:\Ai driven OS\.venv
+\lib\site-packages\google\clo
+ud\firestore_v1\watch.py", 
+line 471, in on_snapshot
+    meth(self, 
+proto.target_change)
+  File "E:\Ai driven OS\.venv
+\lib\site-packages\google\clo
+ud\firestore_v1\watch.py", 
+line 412, in _on_snapshot_tar
+get_change_remove
+    raise 
+RuntimeError(error_message) 
+from 
+exceptions.from_grpc_status(
+RuntimeError: Error 9:  The 
+query requires a 
+COLLECTION_GROUP_ASC index 
+for collection fs and field 
+type. You can create it 
+here: https://console.firebas
+e.google.com/v1/r/project/ai-
+driven-os/firestore/indexes?c
+reate_exemption=Cklwcm9qZWN0c
+y9haS1kcml2ZW4tb3MvZGF0YWJhc2
+VzLyhkZWZhdWx0KS9jb2xsZWN0aW9
+uR3JvdXBzL2ZzL2ZpZWxkcy90eXBl
+EAIaCAoEdHlwZRAB 
