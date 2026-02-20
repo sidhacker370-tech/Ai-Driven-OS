@@ -1,0 +1,7 @@
+remote: error: Trace: 61b8515934e8beb548fb1663e430e292ac5439d9a48121457fa1b5a74389afca        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File frontend/server_log.txt is 585.11 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/sidhacker370-tech/Ai-Driven-OS.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/sidhacker370-tech/Ai-Driven-OS.git'
